@@ -1,6 +1,7 @@
 package com.company;
 
 import javax.sound.midi.Soundbank;
+import java.awt.image.ConvolveOp;
 
 public class Main {
 
@@ -12,10 +13,17 @@ public class Main {
         System.out.println(dog.species);
         System.out.println(dog.name);
 
+        Car x = new Car();
+        x.producer = "Volvo";
+        x.model = 60;
+        x.power = 300;
+        x.colour = "red";
+
         Human me = new Human();
         me.firstName = "Agata";
         me.lastName = "Maciesza";
         me.pet = dog;
+        me.car = x;
 
         Phone s = new Phone();
         s.producer= "Samsung";
