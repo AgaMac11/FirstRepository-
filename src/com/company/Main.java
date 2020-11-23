@@ -1,6 +1,7 @@
 package com.company;
 
 import javax.sound.midi.Soundbank;
+import javax.swing.*;
 import java.awt.image.ConvolveOp;
 
 public class Main {
@@ -9,6 +10,7 @@ public class Main {
         Animal dog = new Animal();
         dog. species = "Samoyed";
         dog.name = "Falko";
+        dog.weight = 20.0;
 
         System.out.println(dog.species);
         System.out.println(dog.name);
@@ -42,6 +44,15 @@ public class Main {
 
 
 
+        }
 
-    }
-}
+
+        }
+
+
+
+
+
+
+
+
